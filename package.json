@@ -1,0 +1,14 @@
+{
+  "name": "jseminck-be-example-module",
+  "version": "1.0.0",
+  "description": "Just an example to learn how to publish a module on Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joachim Seminck",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
