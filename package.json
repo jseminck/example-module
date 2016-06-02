@@ -2,13 +2,16 @@
   "name": "jseminck-be-example-module",
   "version": "1.0.0",
   "description": "Just an example to learn how to publish a module on Github",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist --debug",
+    "test": "node test"
   },
   "author": "Joachim Seminck",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
     "tape": "^4.5.1"
   }
 }
